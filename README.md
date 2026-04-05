@@ -169,15 +169,16 @@ Hyperbolic_Field_DAAT_Crystal_Study/
 |-- data/
 |   |-- baseline/                      # Phase 1 data (15 days) / Данные фазы 1
 |   |-- exposure/                      # Phase 2 data (15 days) / Данные фазы 2
-|   `-- post-exposure/                 # Phase 3 data (15 days) / Данные фазы 3
-|
-|-- crystals/
-|   `-- photos/                        # Crystal photos with serial numbers / Фото с серийными номерами
-|       |-- ASRP-CRYSTAL-DAAT-SPF-HF-202602_000111-VORTEX.jpg
-|       |-- ASRP-CRYSTAL-DAAT-SPF-HF-202602_001111-MOSEDEUS.jpg
-|       |-- ASRP-CRYSTAL-DAAT-SPF-HF-202602_011110-MOZO.jpg
-|       |-- ASRP-CRYSTAL-DAAT-SPF-HF-202602_111100-ZEURTEX.jpg
-|       `-- ASRP-CRYSTAL-DAAT-SPF-HF-202602_all_specimens.jpg
+|   |-- post-exposure/                 # Phase 3 data (15 days) / Данные фазы 3
+|   `-- crystals/                      # Crystal specimens / Образцы кристаллов
+|       |-- photos/                    # Photos with serial numbers / Фото с серийными номерами
+|       |   |-- ASRP-CRYSTAL-DAAT-SPF-HF-202602_000111-VORTEX.jpg
+|       |   |-- ASRP-CRYSTAL-DAAT-SPF-HF-202602_001111-MOSEDEUS.jpg
+|       |   |-- ASRP-CRYSTAL-DAAT-SPF-HF-202602_011110-MOZO.jpg
+|       |   |-- ASRP-CRYSTAL-DAAT-SPF-HF-202602_111100-ZEURTEX.jpg
+|       |   `-- (+ alt angles, general photos)
+|       `-- video/
+|           `-- DAAT_crystals_overview.mp4
 |
 |-- docs/
 |   `-- protocols/                     # Protocol references / Протоколы
@@ -201,12 +202,12 @@ All specimens share catalog prefix: `ASRP-CRYSTAL-DAAT-SPF-HF-202602`
 
 | Catalog ID / Каталожный номер | Name / Название | Photo / Фото |
 |------------------------------|-----------------|--------------|
-| 000111 | VORTEX | [View](crystals/photos/ASRP-CRYSTAL-DAAT-SPF-HF-202602_000111-VORTEX.jpg) |
-| 001111 | MOSEDEUS | [View](crystals/photos/ASRP-CRYSTAL-DAAT-SPF-HF-202602_001111-MOSEDEUS.jpg) |
-| 011110 | MOZO | [View](crystals/photos/ASRP-CRYSTAL-DAAT-SPF-HF-202602_011110-MOZO.jpg) |
-| 111100 | ZEURTEX | [View](crystals/photos/ASRP-CRYSTAL-DAAT-SPF-HF-202602_111100-ZEURTEX.jpg) |
+| 000111 | VORTEX | [View](data/crystals/photos/ASRP-CRYSTAL-DAAT-SPF-HF-202602_000111-VORTEX.jpg) |
+| 001111 | MOSEDEUS | [View](data/crystals/photos/ASRP-CRYSTAL-DAAT-SPF-HF-202602_001111-MOSEDEUS.jpg) |
+| 011110 | MOZO | [View](data/crystals/photos/ASRP-CRYSTAL-DAAT-SPF-HF-202602_011110-MOZO.jpg) |
+| 111100 | ZEURTEX | [View](data/crystals/photos/ASRP-CRYSTAL-DAAT-SPF-HF-202602_111100-ZEURTEX.jpg) |
 
-[All specimens composite / Все образцы](crystals/photos/ASRP-CRYSTAL-DAAT-SPF-HF-202602_all_specimens.jpg)
+[All specimens composite / Все образцы](data/crystals/photos/ASRP-CRYSTAL-DAAT-SPF-HF-202602_all_specimens.jpg)
 
 ---
 
