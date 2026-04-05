@@ -173,6 +173,11 @@ Hyperbolic_Field_DAAT_Crystal_Study/
 |
 |-- crystals/
 |   `-- photos/                        # Crystal photos with serial numbers / Фото с серийными номерами
+|       |-- ASRP-CRYSTAL-DAAT-SPF-HF-202602_000111-VORTEX.jpg
+|       |-- ASRP-CRYSTAL-DAAT-SPF-HF-202602_001111-MOSEDEUS.jpg
+|       |-- ASRP-CRYSTAL-DAAT-SPF-HF-202602_011110-MOZO.jpg
+|       |-- ASRP-CRYSTAL-DAAT-SPF-HF-202602_111100-ZEURTEX.jpg
+|       `-- ASRP-CRYSTAL-DAAT-SPF-HF-202602_all_specimens.jpg
 |
 |-- docs/
 |   `-- protocols/                     # Protocol references / Протоколы
@@ -187,6 +192,21 @@ Hyperbolic_Field_DAAT_Crystal_Study/
 ```
 
 > **Note / Примечание:** Folders marked (TBD) will be created as the study progresses. Crystal photos with serial numbers need to be requested from the team / Папки с пометкой (TBD) будут созданы по мере продвижения исследования. Фото кристаллов с серийными номерами нужно запросить у команды.
+
+---
+
+## CRYSTAL SPECIMENS / КАТАЛОГ КРИСТАЛЛОВ
+
+All specimens share catalog prefix: `ASRP-CRYSTAL-DAAT-SPF-HF-202602`
+
+| Catalog ID / Каталожный номер | Name / Название | Photo / Фото |
+|------------------------------|-----------------|--------------|
+| 000111 | VORTEX | [View](crystals/photos/ASRP-CRYSTAL-DAAT-SPF-HF-202602_000111-VORTEX.jpg) |
+| 001111 | MOSEDEUS | [View](crystals/photos/ASRP-CRYSTAL-DAAT-SPF-HF-202602_001111-MOSEDEUS.jpg) |
+| 011110 | MOZO | [View](crystals/photos/ASRP-CRYSTAL-DAAT-SPF-HF-202602_011110-MOZO.jpg) |
+| 111100 | ZEURTEX | [View](crystals/photos/ASRP-CRYSTAL-DAAT-SPF-HF-202602_111100-ZEURTEX.jpg) |
+
+[All specimens composite / Все образцы](crystals/photos/ASRP-CRYSTAL-DAAT-SPF-HF-202602_all_specimens.jpg)
 
 ---
 
@@ -347,7 +367,6 @@ timeline
 
 ## TBD
 
-- Crystal photos with serial numbers / Фото кристаллов с серийными номерами
 - Cyprus institute collaboration details / Детали сотрудничества с институтом на Кипре
 - EEG/myography baseline protocols / Базовые протоколы ЭЭГ/миографии
 
