@@ -252,13 +252,12 @@ flowchart TB
 
 | Name / ФИО | Role / Роль | Responsibilities / Обязанности |
 |-----------|------------|-------------------------------|
-| **Valeria Ovsyannikova / Валерия Овсянникова** | Coordinator, Co-Author / Координатор, Соавтор | Research coordination, protocol design / Координация исследований, дизайн протокола |
-| **Denis Banchenko / Денис Банченко** | Project Manager, Technology Author / Руководитель проекта, Автор технологии | Project management, hyperbolic field physics / Управление проектом, физика гиперболических полей |
-| **Mykhailo Kapustin / Михайло Капустин** | Co-Author / Соавтор | Digital platform, data infrastructure / Цифровая платформа, инфраструктура данных |
-| **Ivan Savelyev / Иван Савельев** | Science Director / Директор по науке | Scientific research direction, ASRP.science editor / Научное направление, редактор ASRP.science |
-| **Kyryl Zmiienko / Кирилл Змиенко** | AI Engineer / ИИ-инженер | AI models, neural network analysis / ИИ-модели, анализ нейросетей |
-| **Valeria Ovseannicova / Валерия Овсянникова** | Lead Engineer (EEG/GSR) / Ведущий инженер (ЭЭГ/ГСР) | EEG/GSR glove design & integration / Проектирование и интеграция перчаток ЭЭГ/ГСР |
-| **Alexandr Ovsyannikov / Александр Овсянников** | Electronics Specialist / Специалист по электронике | EEG/GSR glove electronics & fabrication / Электроника и изготовление перчаток ЭЭГ/ГСР |
+| **Valeria Ovsyannikova / Валерия Овсянникова** | Director of Biomedical Research Department / Директор департамента биомедицинских исследований | Research coordination, protocol design, EEG/GSR glove design & integration / Координация исследований, дизайн протокола, проектирование и интеграция перчаток ЭЭГ/ГСР |
+| **Ivan Savelyev / Иван Савельев** | Science Director & Editor-in-Chief of ASRP.science / Директор по науке и главный редактор научного журнала ASRP.science | Scientific research direction / Научное направление |
+| **Mykhailo Kapustin / Михайло Капустин** | CTO & Director of AI and IT Department / Технический директор и директор департамента ИИ и ИТ | Digital platform, data infrastructure / Цифровая платформа, инфраструктура данных |
+| **Kyryl Zmiienko / Кирилл Змиенко** | Chief AI Engineer / Главный ИИ-инженер | AI models, neural network analysis / ИИ-модели, анализ нейросетей |
+| **Alexandr Ovsyannikov / Александр Овсянников** | Head Hardware Engineer / Главный Инженер по Аппаратному Обеспечению | EEG/GSR glove electronics & fabrication / Электроника и изготовление перчаток ЭЭГ/ГСР |
+| **Denis Banchenko / Денис Банченко** | Program Director, Author of Research Methodology & Technology / Директор программы, автор методологии и технологии исследования | Project management, hyperbolic field physics / Управление проектом, физика гиперболических полей |
 
 ### International Collaboration / Международное Сотрудничество
 
@@ -281,7 +280,7 @@ flowchart TB
 | [#7](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_DAAT_Crystal_Study/issues/7) | Post-Exposure Testing / Пост-тестирование | High | Q3 2026 | Open |
 | [#8](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_DAAT_Crystal_Study/issues/8) | Data Analysis & Publication / Анализ и публикация | — | — | Open |
 | [#9](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_DAAT_Crystal_Study/issues/9) | Crystal + InspirA-X + EEG/GSR Integrated Testing | High | Q3 2026 | Open |
-| [#10](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_DAAT_Crystal_Study/issues/10) | Fabricate EEG/GSR Measurement Gloves — Lead: Valeria Ovseannicova, Electronics: Alexandr Ovsyannikov | High | Q3 2026 | Open |
+| [#10](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_DAAT_Crystal_Study/issues/10) | Fabricate EEG/GSR Measurement Gloves — Lead: Valeria Ovsyannikova, Electronics: Alexandr Ovsyannikov | High | Q3 2026 | Open |
 | [#11](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_DAAT_Crystal_Study/issues/11) | Patent Application KZ 2025/1095.1 | — | — | Exam |
 
 ---
