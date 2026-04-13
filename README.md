@@ -88,17 +88,9 @@ Research study investigating human interaction with DAAT crystals produced using
 ## STUDY DESIGN / ДИЗАЙН ИССЛЕДОВАНИЯ
 
 ```mermaid
-timeline
-    title DAAT Crystal Study Phases / Фазы Исследования Кристаллов DAAT
-    section Phase 1 / Фаза 1
-        Baseline (15 days) : No crystal exposure
-        : Cognitive & perceptual baseline
-    section Phase 2 / Фаза 2
-        Exposure (15 days) : Wearing DAAT crystal
-        : Daily cognitive testing
-    section Phase 3 / Фаза 3
-        Post-exposure (15 days) : No crystal
-        : Final assessment
+flowchart LR
+    A["Phase 1 / Фаза 1\nBaseline (15 days)\nNo crystal exposure\nCognitive & perceptual baseline\n\nБазовая линия (15 дней)\nБез воздействия кристалла"] --> B["Phase 2 / Фаза 2\nExposure (15 days)\nWearing DAAT crystal\nDaily cognitive testing\n\nВоздействие (15 дней)\nНошение кристалла DAAT"]
+    B --> C["Phase 3 / Фаза 3\nPost-exposure (15 days)\nNo crystal\nFinal assessment\n\nПост-воздействие (15 дней)\nИтоговая оценка"]
 ```
 
 ### Test Groups / Тестовые Группы
@@ -288,23 +280,10 @@ flowchart TB
 ## TIMELINE / ВРЕМЕННАЯ ШКАЛА
 
 ```mermaid
-timeline
-    title DAAT Crystal Study Timeline / Временная Шкала
-    section Q2 2026
-        Participant Recruitment : 20+ participants
-        Baseline Testing : Cognitive & perceptual baseline
-        Crystal Distribution : DAAT crystals to participants
-    section Q2-Q3 2026
-        Exposure Phase : 15 days wearing crystal
-        Weekly Check-ins : 8 weeks data collection
-        EEG/GSR Glove Prototype : Hardware fabrication
-    section Q3 2026
-        Post-Exposure Testing : Final assessment
-        Integrated Testing : Crystal + InspirA-X + EEG/GSR
-        EEG/GSR Calibration : Compare with commercial devices
-    section Q4 2026
-        Data Analysis : Statistical analysis
-        Publication : Manuscript for biomedical journal
+flowchart LR
+    A["Q2 2026\nParticipant Recruitment: 20+\nBaseline Testing\nCrystal Distribution\n\nНабор участников: 20+\nБазовое тестирование\nРаздача кристаллов"] --> B["Q2-Q3 2026\nExposure Phase: 15 days\nWeekly Check-ins: 8 weeks\nEEG/GSR Glove Prototype\n\nФаза воздействия: 15 дней\nЕженедельные проверки\nПрототип перчаток ЭЭГ/КГР"]
+    B --> C["Q3 2026\nPost-Exposure Testing\nIntegrated Testing:\nCrystal + InspirA-X + EEG/GSR\nCalibration\n\nПост-тестирование\nИнтегрированное тестирование\nКалибровка"]
+    C --> D["Q4 2026\nData Analysis\nPublication\n\nАнализ данных\nПубликация"]
 ```
 
 ---
