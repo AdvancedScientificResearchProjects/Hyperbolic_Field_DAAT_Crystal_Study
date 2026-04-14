@@ -23,13 +23,13 @@
 | Section / Раздел | Description / Описание | Status / Статус |
 |------------------|----------------------|-----------------|
 | [Overview / Обзор](#overview--обзор) | Study objectives / Цели исследования | Defined / Определено |
-| [Study Design / Дизайн](#study-design--дизайн-исследования) | Phases, groups, timeline / Фазы, группы, сроки | Protocol v1.3 |
+| [Study Design / Дизайн](#study-design--дизайн-исследования) | Phases, groups, timeline / Фазы, группы, сроки | Protocol v1.3 / Протокол v1.3 |
 | [Hypotheses / Гипотезы](#hypotheses--гипотезы) | Research questions / Исследовательские вопросы | Defined / Определены |
 | [Procedures / Процедуры](#procedures--процедуры) | Test methods / Методы тестирования | Defined / Определены |
 | [Team / Команда](#research-team--команда) | Researchers / Исследователи | Assigned / Назначены |
-| [Active Issues / Задачи](#active-issues--tasks--активные-задачи) | GitHub Issues / Задачи GitHub | 11 Open |
-| [Patent Connection / Патент](#patent-connection--связь-с-патентом) | KZ 2025/1095.1 | Substantive Exam |
-| [ASRP Ecosystem / Экосистема](#asrp-ecosystem--экосистема-asrp) | Related repos / Связанные репозитории | Linked |
+| [Active Issues / Задачи](#active-issues--tasks--активные-задачи) | GitHub Issues / Задачи GitHub | 11 Open / 11 Открыто |
+| [Patent Connection / Патент](#patent-connection--связь-с-патентом) | KZ 2025/1095.1 | Substantive Exam / Экспертиза по существу |
+| [ASRP Ecosystem / Экосистема](#asrp-ecosystem--экосистема-asrp) | Related repos / Связанные репозитории | Linked / Связано |
 
 ---
 
@@ -87,11 +87,7 @@ Research study investigating human interaction with DAAT crystals produced using
 
 ## STUDY DESIGN / ДИЗАЙН ИССЛЕДОВАНИЯ
 
-```mermaid
-flowchart LR
-    A["Phase 1 / Фаза 1\nBaseline (15 days)\nNo crystal exposure\nCognitive & perceptual baseline\n\nБазовая линия (15 дней)\nБез воздействия кристалла"] --> B["Phase 2 / Фаза 2\nExposure (15 days)\nWearing DAAT crystal\nDaily cognitive testing\n\nВоздействие (15 дней)\nНошение кристалла DAAT"]
-    B --> C["Phase 3 / Фаза 3\nPost-exposure (15 days)\nNo crystal\nFinal assessment\n\nПост-воздействие (15 дней)\nИтоговая оценка"]
-```
+![Diagram 1](charts/mermaid/root_1.png)
 
 ### Test Groups / Тестовые Группы
 
@@ -129,19 +125,7 @@ Protocol photos: [Page 1](docs/protocols/subjective_minute_test_1.jpg) | [Page 2
 
 ### Integrated Testing / Интегрированное Тестирование
 
-```mermaid
-flowchart LR
-    A[DAAT Crystal / Кристалл DAAT] --> D[Participant / Участник]
-    B[InspirA-X Device / Устройство InspirA-X] --> D
-    C[EEG/GSR Gloves / Перчатки ЭЭГ/ГСР] --> E[Data Collection / Сбор Данных]
-    D --> E
-    E --> F[AI Analysis / ИИ Анализ]
-    F --> G[Results / Результаты]
-
-    style A fill:#4ecdc4,stroke:#333
-    style B fill:#ff6b6b,stroke:#333
-    style C fill:#45b7d1,stroke:#333
-```
+![Diagram 1](charts/mermaid/retry_1.png)
 
 ### Experimental Flow / Экспериментальный Поток
 
@@ -205,18 +189,7 @@ All specimens share catalog prefix: `ASRP-CRYSTAL-DAAT-SPF-HF-202602`
 
 ## PATENT CONNECTION / СВЯЗЬ С ПАТЕНТОМ
 
-```mermaid
-flowchart TB
-    P[KZ 2025/1095.1<br/>Fractal Biomedical<br/>Hyperbolic Field System<br/> Substantive Exam] --> E[Hyperbolic Field<br/>Emitter Technology<br/>Технология Излучателей]
-    E --> C[DAAT Crystal<br/>Production<br/>Производство Кристаллов]
-    E --> B[Blood Plasma<br/>Study<br/>Исследование Плазмы]
-    E --> A[Agricultural<br/>Study<br/>Исследование Растений]
-    C --> D[This Study<br/>Human Interaction<br/>Это Исследование]
-
-    style P fill:#ffd93d,stroke:#333
-    style D fill:#4ecdc4,stroke:#333
-    style C fill:#6c5ce7,stroke:#333
-```
+![Diagram 3](charts/mermaid/root_3.png)
 
 | Patent / Патент | Application / Заявка | Status / Статус | Link / Ссылка |
 |----------------|---------------------|-----------------|---------------|
@@ -263,28 +236,23 @@ flowchart TB
 
 | # | Title / Название | Priority / Приоритет | Due / Срок | Status / Статус |
 |---|-----------------|---------------------|-----------|-----------------|
-| [#1](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_DAAT_Crystal_Study/issues/1) | DAAT Crystal Human Study Protocol / Протокол исследования | — | — | Protocol v1.3 |
+| [#1](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_DAAT_Crystal_Study/issues/1) | DAAT Crystal Human Study Protocol / Протокол исследования | — | — | Protocol v1.3 / Протокол v1.3 |
 | [#2](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_DAAT_Crystal_Study/issues/2) | DAAT Crystal Protocol / Протокол | — | — | Recruitment / Набор |
-| [#3](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_DAAT_Crystal_Study/issues/3) | Participant Recruitment (20+) / Набор участников | High | Q2 2026 | Open |
-| [#4](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_DAAT_Crystal_Study/issues/4) | Baseline Cognitive Testing / Базовое тестирование | High | Q2 2026 | Open |
-| [#5](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_DAAT_Crystal_Study/issues/5) | Crystal Distribution / Распределение кристаллов | High | Q2 2026 | Open |
-| [#6](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_DAAT_Crystal_Study/issues/6) | Weekly Check-ins (8 weeks) / Еженедельные проверки | Medium | Q2-Q3 2026 | Open |
-| [#7](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_DAAT_Crystal_Study/issues/7) | Post-Exposure Testing / Пост-тестирование | High | Q3 2026 | Open |
-| [#8](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_DAAT_Crystal_Study/issues/8) | Data Analysis & Publication / Анализ и публикация | — | — | Open |
-| [#9](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_DAAT_Crystal_Study/issues/9) | Crystal + InspirA-X + EEG/GSR Integrated Testing | High | Q3 2026 | Open |
-| [#10](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_DAAT_Crystal_Study/issues/10) | Fabricate EEG/GSR Measurement Gloves — Lead: Valeria Ovsyannikova, Electronics: Alexandr Ovsyannikov | High | Q3 2026 | Open |
-| [#11](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_DAAT_Crystal_Study/issues/11) | Patent Application KZ 2025/1095.1 | — | — | Exam |
+| [#3](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_DAAT_Crystal_Study/issues/3) | Participant Recruitment (20+) / Набор участников | High / Высокий | Q2 2026 | Open / Открыто |
+| [#4](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_DAAT_Crystal_Study/issues/4) | Baseline Cognitive Testing / Базовое тестирование | High / Высокий | Q2 2026 | Open / Открыто |
+| [#5](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_DAAT_Crystal_Study/issues/5) | Crystal Distribution / Распределение кристаллов | High / Высокий | Q2 2026 | Open / Открыто |
+| [#6](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_DAAT_Crystal_Study/issues/6) | Weekly Check-ins (8 weeks) / Еженедельные проверки | Medium / Средний | Q2-Q3 2026 | Open / Открыто |
+| [#7](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_DAAT_Crystal_Study/issues/7) | Post-Exposure Testing / Пост-тестирование | High / Высокий | Q3 2026 | Open / Открыто |
+| [#8](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_DAAT_Crystal_Study/issues/8) | Data Analysis & Publication / Анализ и публикация | — | — | Open / Открыто |
+| [#9](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_DAAT_Crystal_Study/issues/9) | Crystal + InspirA-X + EEG/GSR Integrated Testing / Интегрированное тестирование Кристалл + InspirA-X + ЭЭГ/КГР | High / Высокий | Q3 2026 | Open / Открыто |
+| [#10](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_DAAT_Crystal_Study/issues/10) | Fabricate EEG/GSR Measurement Gloves — Lead: Valeria Ovsyannikova, Electronics: Alexandr Ovsyannikov / Изготовление перчаток для измерения ЭЭГ/КГР — Руководитель: Валерия Овсянникова, Электроника: Александр Овсянников | High / Высокий | Q3 2026 | Open / Открыто |
+| [#11](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_DAAT_Crystal_Study/issues/11) | Patent Application KZ 2025/1095.1 / Патентная заявка KZ 2025/1095.1 | — | — | Exam / Экспертиза |
 
 ---
 
 ## TIMELINE / ВРЕМЕННАЯ ШКАЛА
 
-```mermaid
-flowchart LR
-    A["Q2 2026\nParticipant Recruitment: 20+\nBaseline Testing\nCrystal Distribution\n\nНабор участников: 20+\nБазовое тестирование\nРаздача кристаллов"] --> B["Q2-Q3 2026\nExposure Phase: 15 days\nWeekly Check-ins: 8 weeks\nEEG/GSR Glove Prototype\n\nФаза воздействия: 15 дней\nЕженедельные проверки\nПрототип перчаток ЭЭГ/КГР"]
-    B --> C["Q3 2026\nPost-Exposure Testing\nIntegrated Testing:\nCrystal + InspirA-X + EEG/GSR\nCalibration\n\nПост-тестирование\nИнтегрированное тестирование\nКалибровка"]
-    C --> D["Q4 2026\nData Analysis\nPublication\n\nАнализ данных\nПубликация"]
-```
+![Diagram 4](charts/mermaid/root_4.png)
 
 ---
 
@@ -298,9 +266,9 @@ flowchart LR
 
 | Repository / Репозиторий | Direction / Направление | Link / Ссылка |
 |-------------------------|------------------------|---------------|
-| **Hyperbolic Field Blood Plasma Study** | Blood plasma coagulation / Свёртываемость плазмы | [View / Просмотр](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study) |
-| **Hyperbolic Field Agricultural Study** | Plant & seed growth / Рост растений и семян | [View / Просмотр](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_Agricultural_Study) |
-| **Hyperbolic Field Saccharomyces Study** | Yeast fermentation / Ферментация дрожжей | [View / Просмотр](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_SaccharomycesCerevisiae_Study) |
+| **Hyperbolic Field Blood Plasma Study / Исследование Плазмы Крови** | Blood plasma coagulation / Свёртываемость плазмы | [View / Просмотр](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study) |
+| **Hyperbolic Field Agricultural Study / Сельскохозяйственное Исследование** | Plant & seed growth / Рост растений и семян | [View / Просмотр](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_Agricultural_Study) |
+| **Hyperbolic Field Saccharomyces Study / Исследование Дрожжей Saccharomyces** | Yeast fermentation / Ферментация дрожжей | [View / Просмотр](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_SaccharomycesCerevisiae_Study) |
 | **ASRP.art** | Art & consciousness / Искусство и сознание | [View / Просмотр](https://github.com/AdvancedScientificResearchProjects/Axionetic_Sensing_Reactions_Platform_in_Art) |
 | **UAP Reverse Engineering** | UAP analysis / Анализ НЛО | [View / Просмотр](https://github.com/AdvancedScientificResearchProjects/UAP_Reverse_Engineering_Study) |
 | **PLFM RADAR** | Phased array radar / Фазированная антенная решётка | [View / Просмотр](https://github.com/AdvancedScientificResearchProjects/PLFM_RADAR) |
