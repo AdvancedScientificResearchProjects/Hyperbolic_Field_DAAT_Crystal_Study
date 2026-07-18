@@ -7,12 +7,26 @@
 **Взаимодействие Человек-Кристалл: Когнитивные, Перцептивные и Физиологические Эффекты**
 
 [![ASRP](https://img.shields.io/badge/ASRP-Research-blue)](https://github.com/AdvancedScientificResearchProjects)
-[![Language](https://img.shields.io/badge/Language-EN%2FRU-brightgreen)]()
-[![Status](https://img.shields.io/badge/Status-Recruitment-orange)]()
+![Language](https://img.shields.io/badge/Language-EN%2FRU-brightgreen)
+![Status](https://img.shields.io/badge/Status-Recruitment-orange)
 
 **Part of Advanced Scientific Research Projects (ASRP) Ecosystem**
 
 **Часть Экосистемы ASRP**
+
+</div>
+
+---
+
+<div align="center">
+
+[![💛 Support our work / Поддержать](https://img.shields.io/badge/💛%20Support%20our%20work-asrp.tech%2Fpatrons-FBBF24?style=for-the-badge)](https://asrp.tech/en/patrons)
+
+> **EN:** **If this work is valuable to you — support us.** 7 patron tiers from Principal Philanthropist to Individual Contributor.
+> **RU:** **Если эта работа вам полезна — поддержите нас.** 7 уровней меценатства — от Главного Филантропа до Индивидуального Вкладчика.
+>
+> **Support / Поддержать:** <https://asrp.tech/en/patrons>
+> **Investment inquiries / Инвестиционные запросы:** _pending — provide URL when available / в ожидании — добавляется при предоставлении_
 
 </div>
 
@@ -28,6 +42,7 @@
 | [Procedures / Процедуры](#procedures--процедуры) | Test methods / Методы тестирования | Defined / Определены |
 | [Team / Команда](#research-team--команда) | Researchers / Исследователи | Assigned / Назначены |
 | [Active Issues / Задачи](#active-issues--tasks--активные-задачи) | GitHub Issues / Задачи GitHub | 11 Open / 11 Открыто |
+| [Security / Безопасность](#security--безопасность) | Data classification / Классификация данных | Standard / Стандартная |
 | [Patent Connection / Патент](#patent-connection--связь-с-патентом) | KZ 2025/1095.1 | Substantive Exam / Экспертиза по существу |
 | [ASRP Ecosystem / Экосистема](#asrp-ecosystem--экосистема-asrp) | Related repos / Связанные репозитории | Linked / Связано |
 
@@ -37,6 +52,8 @@
 
 ### EN
 
+**Status:** Participant-recruitment phase — **no human-subject data has been collected yet.** All effects listed below are hypotheses / expected outcomes, not measured results. This is an observational / preclinical protocol, not a confirmatory analysis.
+
 Research study investigating human interaction with DAAT crystals produced using hyperbolic field technologies. The study evaluates effects on cognition, perception, autonomic physiology, and creative processes through structured experimental protocols.
 
 **Central Hypothesis:** Integrated interaction of DAAT Crystal with the cardiac neuroendocrine center may stimulate neurogenesis, neuroplasticity, cognitive flexibility, perception modulation, and creative cognition.
@@ -44,6 +61,8 @@ Research study investigating human interaction with DAAT crystals produced using
 **Long-term Research Question:** Can integrated human-technology training enhance biological intelligence in the AI era?
 
 ### RU
+
+**Статус:** Фаза набора участников — **данные с участием людей пока не собирались.** Все перечисленные ниже эффекты являются гипотезами / ожидаемыми результатами, а не измеренными данными. Это наблюдательный / доклинический протокол, а не подтверждающий анализ.
 
 Исследование взаимодействия человека с кристаллами DAAT, произведёнными с использованием технологий гиперболических полей. Исследование оценивает воздействие на когнитивные функции, восприятие, автономную физиологию и творческие процессы через структурированные экспериментальные протоколы.
 
@@ -256,6 +275,22 @@ All specimens share catalog prefix: `ASRP-CRYSTAL-DAAT-SPF-HF-202602`
 
 ---
 
+## SECURITY / БЕЗОПАСНОСТЬ
+
+### Data Classification / Классификация данных
+
+| Level / Уровень | Access / Доступ | Marking / Маркировка | Description / Описание |
+|-------------------|-------------------|--------------------------|----------------------------|
+| **PUBLIC / ПУБЛИЧНЫЙ** | Open / Открытый | GREEN / ЗЕЛЁНЫЙ | General information / Общая информация |
+| **RESEARCH / ИССЛЕДОВАТЕЛЬСКИЙ** | Team Only / Только команда | YELLOW / ЖЁЛТЫЙ | Research data / Исследовательские данные |
+| **RESTRICTED / ОГРАНИЧЕННЫЙ** | Core Team / Основная команда | RED / КРАСНЫЙ | Sensitive analysis / Конфиденциальный анализ |
+| **INTERNAL / ВНУТРЕННИЙ** | Director Only / Только директор | BLACK / ЧЁРНЫЙ | Director-level review only / Только обзор уровня директора |
+
+> **EN:** Raw participant data (cognitive test responses, free drawings, EEG/GSR recordings, and any participant-identifying material) is classified **RESEARCH** or **RESTRICTED** and is never published in this public repo — only de-identified, aggregated results would appear here.
+> **RU:** Первичные данные участников (ответы когнитивных тестов, свободные рисунки, записи ЭЭГ/ГСР и любые материалы, идентифицирующие участников) классифицируются как **ИССЛЕДОВАТЕЛЬСКИЕ** или **ОГРАНИЧЕННЫЕ** и никогда не публикуются в этом публичном репозитории — здесь могут появляться только деперсонализированные, агрегированные результаты.
+
+---
+
 ## ASRP ECOSYSTEM / ЭКОСИСТЕМА ASRP
 
 <div align="center">
@@ -295,8 +330,8 @@ All specimens share catalog prefix: `ASRP-CRYSTAL-DAAT-SPF-HF-202602`
 | Field / Поле | Value / Значение |
 |--------------|------------------|
 | **Organization / Организация** | ТОО "Перспективные Научно-Исследовательские Разработки" / Advanced Scientific Research Projects LLP |
-| **Address / Адрес** | Komarova St. 37, Apt 56, Baikonur, 468320 / Ул. Комарова 37, кв. 56, г. Байконур, 468320 |
 | **Country / Страна** | Republic of Kazakhstan / Республика Казахстан |
+| **Address / Адрес** | Komarova St. 37, Apt 56, Baikonur, 468320 / Ул. Комарова 37, кв. 56, г. Байконур, 468320 |
 | **Website / Веб-сайт** | [asrp.tech](https://asrp.tech) |
 | **Email** | info@asrp.tech |
 
@@ -304,7 +339,7 @@ All specimens share catalog prefix: `ASRP-CRYSTAL-DAAT-SPF-HF-202602`
 
 <div align="center">
 
-**Last Updated / Последнее обновление:** April 2026
+**Last Updated / Последнее обновление:** July 2026
 
 **Status / Статус:** Participant Recruitment / Набор Участников
 
@@ -321,4 +356,4 @@ All specimens share catalog prefix: `ASRP-CRYSTAL-DAAT-SPF-HF-202602`
 
 ## NAVIGATION INDEX / НАВИГАЦИОННЫЙ ИНДЕКС
 
-[Overview / Обзор](#overview--обзор) · [Key Metrics / Метрики](#key-metrics--ключевые-метрики) · [Hypotheses / Гипотезы](#hypotheses--гипотезы) · [Study Design / Дизайн](#study-design--дизайн-исследования) · [Procedures / Процедуры](#procedures--процедуры) · [Data Structure / Структура](#data-structure--структура-данных) · [Patent Connection / Патент](#patent-connection--связь-с-патентом) · [Team / Команда](#research-team--команда) · [Active Issues / Задачи](#active-issues--tasks--активные-задачи) · [Timeline / Сроки](#timeline--временная-шкала) · [ASRP Ecosystem / Экосистема](#asrp-ecosystem--экосистема-asrp) · [Contact / Контакты](#contact-information--контактная-информация)
+[Overview / Обзор](#overview--обзор) · [Key Metrics / Метрики](#key-metrics--ключевые-метрики) · [Hypotheses / Гипотезы](#hypotheses--гипотезы) · [Study Design / Дизайн](#study-design--дизайн-исследования) · [Procedures / Процедуры](#procedures--процедуры) · [Data Structure / Структура](#data-structure--структура-данных) · [Patent Connection / Патент](#patent-connection--связь-с-патентом) · [Team / Команда](#research-team--команда) · [Active Issues / Задачи](#active-issues--tasks--активные-задачи) · [Timeline / Сроки](#timeline--временная-шкала) · [Security / Безопасность](#security--безопасность) · [ASRP Ecosystem / Экосистема](#asrp-ecosystem--экосистема-asrp) · [Contact / Контакты](#contact-information--контактная-информация)
