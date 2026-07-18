@@ -330,7 +330,6 @@ All specimens share catalog prefix: `ASRP-CRYSTAL-DAAT-SPF-HF-202602`
 | Field / Поле | Value / Значение |
 |--------------|------------------|
 | **Organization / Организация** | ТОО "Перспективные Научно-Исследовательские Разработки" / Advanced Scientific Research Projects LLP |
-| **Address / Адрес** | Komarova St. 37, Apt 56, Baikonur, 468320 / Ул. Комарова 37, кв. 56, г. Байконур, 468320 |
 | **Country / Страна** | Republic of Kazakhstan / Республика Казахстан |
 | **Website / Веб-сайт** | [asrp.tech](https://asrp.tech) |
 | **Email** | info@asrp.tech |
